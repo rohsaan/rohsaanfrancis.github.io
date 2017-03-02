@@ -1,0 +1,132 @@
+h1{
+	font-size:70px;
+	font-family: "goldoni";
+	color: black;
+	border: #4594a1;
+	}
+body {
+	font-family: "Superclarendon"; serif,
+	text-align: center;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+#navbar {
+	width: 1000px;
+	height: 150px;
+	background:	 #4594a1;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#nav_wrapper{
+	height: 100px;
+	width: 900px;
+	background: #173136;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+
+#nav_wrapper  ul li{
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	
+}
+
+#nav_wrapper a{
+	color: white;
+	text-decoration: none;
+	
+	
+	
+}
+#navbar  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+#navbar ul li{
+	list-style-type: none;
+	width: 150px;
+	float: left;
+	text-align: center; 
+	text-decoration: none
+}
+
+ #navbar ul li a{
+	display: block;
+    padding: 8px;
+    text-decoration: none;
+    background-color: none;
+    color: white;	 
+}
+
+#navbar ul li a:hover{
+	background-color: #94c9d1;
+	transition: all 0.45s;
+	color: #081012;
+	
+}
+
+#outerbox{
+	width: 700px;
+	height:500px;
+	overflow: hidden;
+	border: 10px double white
+	}
+
+#sliderbox{
+	position:relative;
+	width: 3500px;
+	animation: jatinder 20s infinite;
+}
+
+#sliderbox img{
+	float: left;
+}
+
+@keyframes jatinder {
+	
+	0%{
+		left: 0px;
+	}
+	20%{
+		left: 0px;
+	}
+	25%{
+		left:-700px; 
+	}
+	45%{
+		left:-700px;
+	}
+	50%{
+		left: -1400px;
+	}
+	70%{
+		left: -1400px;
+	}
+	75%{
+		left: -2100px;
+	}
+	95%{
+		left:-2100px;
+	}
+	100%{
+		left:- 2800px
+	}
+	
+	
+}
